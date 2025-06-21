@@ -1,8 +1,14 @@
+# Ignore all configuration files
+# These files are often used to store settings and should not be committed to version control.
+
+
 /.vscode
 /node_modules
 ./dist
 
 
+# Ignore all environment variable files
+# These files are often used to store sensitive information and should not be committed to version control.
 *.env
 .env
 .env.*
